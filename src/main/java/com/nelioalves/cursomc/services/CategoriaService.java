@@ -43,7 +43,8 @@ public class CategoriaService {
 		}
 	}
 	
-	public List<Categoria> list() {
+	public List<Categoria> findAll() {
 		return repo.findAll();
 	}
+
 }
